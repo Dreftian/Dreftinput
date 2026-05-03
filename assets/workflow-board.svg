@@ -1,0 +1,40 @@
+<svg width="820" height="560" viewBox="0 0 820 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="24" y="30" width="772" height="500" rx="28" fill="#07111F" fill-opacity=".70" stroke="#E2F2FF" stroke-opacity=".28"/>
+  <rect x="62" y="76" width="196" height="340" rx="18" fill="#FFFFFF" fill-opacity=".09" stroke="#E2F2FF" stroke-opacity=".20"/>
+  <rect x="312" y="76" width="196" height="340" rx="18" fill="#FFFFFF" fill-opacity=".09" stroke="#E2F2FF" stroke-opacity=".20"/>
+  <rect x="562" y="76" width="196" height="340" rx="18" fill="#FFFFFF" fill-opacity=".09" stroke="#E2F2FF" stroke-opacity=".20"/>
+  <text x="88" y="122" fill="#FFD166" font-family="Segoe UI, Arial" font-size="15" font-weight="900">ENTRADA</text>
+  <text x="338" y="122" fill="#55D6FF" font-family="Segoe UI, Arial" font-size="15" font-weight="900">ANALISIS</text>
+  <text x="588" y="122" fill="#EE4FA8" font-family="Segoe UI, Arial" font-size="15" font-weight="900">SALIDA</text>
+  <text x="88" y="170" fill="#F8FBFF" font-family="Segoe UI, Arial" font-size="20" font-weight="900">Texto rapido</text>
+  <text x="338" y="170" fill="#F8FBFF" font-family="Segoe UI, Arial" font-size="20" font-weight="900">Correccion</text>
+  <text x="588" y="170" fill="#F8FBFF" font-family="Segoe UI, Arial" font-size="20" font-weight="900">Input pulido</text>
+  <g fill="#AAB6C8" font-family="Segoe UI, Arial" font-size="14">
+    <text x="88" y="220">errores de escritura</text>
+    <text x="88" y="252">ideas sin orden</text>
+    <text x="88" y="284">comandos mezclados</text>
+    <text x="338" y="220">idioma detectado</text>
+    <text x="338" y="252">tildes y puntuacion</text>
+    <text x="338" y="284">estructura por contexto</text>
+    <text x="588" y="220">frases claras</text>
+    <text x="588" y="252">pasos accionables</text>
+    <text x="588" y="284">exportacion limpia</text>
+  </g>
+  <path d="M272 245H296" stroke="#E2F2FF" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M288 237L296 245L288 253" stroke="#E2F2FF" stroke-opacity=".45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M522 245H546" stroke="#E2F2FF" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M538 237L546 245L538 253" stroke="#E2F2FF" stroke-opacity=".45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="92" y="342" width="134" height="42" rx="12" fill="#FFFFFF" fill-opacity=".09"/>
+  <rect x="342" y="342" width="134" height="42" rx="12" fill="#FFFFFF" fill-opacity=".09"/>
+  <rect x="592" y="342" width="134" height="42" rx="12" fill="url(#final)"/>
+  <text x="118" y="369" fill="#F8FBFF" font-family="Segoe UI, Arial" font-size="14" font-weight="900">Pegar texto</text>
+  <text x="366" y="369" fill="#F8FBFF" font-family="Segoe UI, Arial" font-size="14" font-weight="900">Mejorar</text>
+  <text x="624" y="369" fill="#FFFFFF" font-family="Segoe UI, Arial" font-size="14" font-weight="900">Exportar</text>
+  <defs>
+    <linearGradient id="final" x1="592" y1="342" x2="726" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EE4FA8"/>
+      <stop offset=".55" stop-color="#8C5BFF"/>
+      <stop offset="1" stop-color="#4D7CFF"/>
+    </linearGradient>
+  </defs>
+</svg>
