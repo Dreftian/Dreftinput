@@ -25,11 +25,10 @@ La pagina web esta configurada en la raiz del repositorio para que Vercel pueda 
 - `index.html`
 - `styles.css`
 - `script.js`
-- `assets/dreitz.ico`
 - `assets/hero-interface.svg`
 - `assets/workflow-board.svg`
 
-La carpeta `Website/` queda como copia local de trabajo, pero la version que debe publicar Vercel es la de la raiz.
+El logo real se usa en la web como icono embebido dentro de `index.html`, tomado del icono local del proyecto. La carpeta `Website/` queda como copia local de trabajo, pero la version que debe publicar Vercel es la de la raiz.
 
 ## Comandos
 
