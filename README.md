@@ -28,7 +28,7 @@ La pagina web esta configurada en la raiz del repositorio para que Vercel pueda 
 - `assets/hero-interface.svg`
 - `assets/workflow-board.svg`
 
-El logo real se usa en la web como icono embebido dentro de `index.html`, tomado del icono local del proyecto. La carpeta `Website/` queda como copia local de trabajo, pero la version que debe publicar Vercel es la de la raiz.
+El logo real se usa en la web como icono embebido dentro de `index.html`, tomado del icono local del proyecto. En GitHub, la version publica queda directamente en la raiz para que Vercel la detecte sin configuracion extra.
 
 ## Comandos
 
