@@ -1,5 +1,17 @@
 # Dreftinput
 
+<p align="center">
+  <img src="assets/hero-interface.svg" alt="Dreftinput interfaz glass" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/Dreftian/Dreftinput/releases/latest/download/Dreftinput-Launcher-1.0.0.zip"><strong>Descargar instalador para Windows</strong></a>
+  ·
+  <a href="https://github.com/Dreftian/Dreftinput/releases">Ver releases</a>
+  ·
+  <a href="https://github.com/Dreftian/Dreftinput">Repositorio</a>
+</p>
+
 Dreftinput es una aplicacion de escritorio para Windows creada para mejorar textos de entrada antes de pegarlos en otra app, IA, editor o flujo de trabajo. Su objetivo es transformar frases rapidas, textos desordenados o comandos mezclados en una version clara, formal, compacta y lista para usar.
 
 ## Que hace
@@ -12,11 +24,27 @@ Dreftinput es una aplicacion de escritorio para Windows creada para mejorar text
 - Permite exportar solo el texto mejorado en `MD`, `TXT` o `PDF`.
 - Incluye temas visuales: oscuro, claro glass y glass absoluto.
 
+## Vista del flujo
+
+<p align="center">
+  <img src="assets/workflow-board.svg" alt="Flujo de mejora de Dreftinput" width="82%">
+</p>
+
 ## App de escritorio
 
 La interfaz esta pensada en formato glass/mica, con una ventana principal de `1200 x 600`, barra superior limpia, panel de ajustes esencial y una salida animada al mejorar el texto.
 
 El launcher presenta Dreftinput antes de instalarlo, copia la aplicacion a archivos locales y la deja lista para uso comercial en Windows.
+
+## Instalador
+
+El instalador recomendado es:
+
+- `release/Dreftinput-Launcher-1.0.0.zip`
+
+Para publicarlo como descarga directa, sube ese ZIP como asset de GitHub Releases con el nombre `Dreftinput-Launcher-1.0.0.zip`. La website ya apunta a:
+
+`https://github.com/Dreftian/Dreftinput/releases/latest/download/Dreftinput-Launcher-1.0.0.zip`
 
 ## Website
 
