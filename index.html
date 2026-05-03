@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dreftinput mejora inputs, corrige ortografia, ordena ideas y convierte texto desordenado en instrucciones claras."
+    />
+    <title>Dreftinput - Mejora tus inputs</title>
+    <link rel="icon" href="data:image/x-icon;base64,AAABAAEAQEAQAAAAAABoCgAAFgAAACgAAABAAAAAgAAAAAEABAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////3//////9/H8f/////////x/////////8H9//////////3/////////fH////////////////////////////////////8f////9////3/////3///wf////8////H/////////8f/////////3/////////8f////H////3////8f////f////4f/////////x////f/////H/f///////8f/////////x//////////H/////////8f/////////9//////////3//////////f/////////9//////////3//////////f///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Inicio de Dreftinput">
+        <img src="data:image/x-icon;base64,AAABAAEAQEAQAAAAAABoCgAAFgAAACgAAABAAAAAgAAAAAEABAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////3//////9/H8f/////////x/////////8H9//////////3/////////fH////////////////////////////////////8f////9////3/////3///wf////8////H/////////8f/////////3/////////8f////H////3////8f////f////4f/////////x////f/////H/f///////8f/////////x//////////H/////////8f/////////9//////////3//////////f/////////9//////////3//////////f///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==" alt="" />
+        <span>Dreftinput</span>
+      </a>
+      <nav aria-label="Principal">
+        <a href="#demo">Demo</a>
+        <a href="#features">Funciones</a>
+        <a href="#workflow">Flujo</a>
+        <a href="#download">Instalacion</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+        <span></span>
+        Tema
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-bg" src="./assets/hero-interface.svg" alt="" />
+        <div class="hero-content">
+          <p class="eyebrow">Optimizador de inputs</p>
+          <h1 id="hero-title">Dreftinput</h1>
+          <p class="hero-copy">
+            Convierte textos desordenados en inputs claros, formales y listos para usar.
+            Corrige ortograf&iacute;a, tildes, puntuaci&oacute;n, estructura y comandos sin perder la idea original.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#download">Ver instalacion</a>
+            <a class="secondary-action" href="#demo">Probar demo visual</a>
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Capacidades principales">
+          <div><strong>8</strong><span>idiomas base</span></div>
+          <div><strong>3</strong><span>temas glass</span></div>
+          <div><strong>MD/TXT/PDF</strong><span>exportacion</span></div>
+        </div>
+      </section>
+
+      <section class="demo-section reveal" id="demo" aria-labelledby="demo-title">
+        <div class="section-heading">
+          <p class="eyebrow">Demo interactiva</p>
+          <h2 id="demo-title">De texto roto a input usable</h2>
+          <p>
+            Escribe una frase desordenada o usa el ejemplo. La demo simula la l&oacute;gica de Dreftinput:
+            corrige errores, detecta intenci&oacute;n y devuelve una salida m&aacute;s clara.
+          </p>
+        </div>
+
+        <div class="demo-grid">
+          <label class="glass-panel input-panel">
+            <span>Texto original</span>
+            <textarea id="demo-input" spellcheck="true">Hola, me opuedes decir como omper una ai en el prceoseo de condicficacion</textarea>
+          </label>
+
+          <div class="glass-panel output-panel">
+            <div class="panel-title">
+              <span>Texto mejorado</span>
+              <button id="copy-demo" type="button">Copiar</button>
+            </div>
+            <pre id="demo-output"></pre>
+          </div>
+        </div>
+
+        <div class="demo-actions">
+          <button id="improve-demo" class="primary-action" type="button">Mejorar input</button>
+          <button id="sample-demo" class="secondary-action" type="button">Cambiar ejemplo</button>
+        </div>
+      </section>
+
+      <section class="feature-band reveal" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">Pensado para inputs</p>
+          <h2 id="features-title">Pulido, orden y claridad en una sola ventana</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-index">01</span>
+            <h3>Ortografia inteligente</h3>
+            <p>Corrige palabras incompletas, tildes faltantes, puntuacion y errores comunes como omper, prceoseo o condicficacion.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">02</span>
+            <h3>Salida estructurada</h3>
+            <p>Cuando el texto lo necesita, lo convierte en pasos, filas o bloques para que la informacion sea facil de ejecutar.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">03</span>
+            <h3>Multidioma</h3>
+            <p>Reconoce y mejora textos en espanol, ingles, japones, chino, portugues, frances e italiano.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">04</span>
+            <h3>Exportacion limpia</h3>
+            <p>Guarda solo el resultado final en Markdown, TXT o PDF, sin texto original ni encabezados innecesarios.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="workflow reveal" id="workflow" aria-labelledby="workflow-title">
+        <div class="workflow-copy">
+          <p class="eyebrow">Flujo local</p>
+          <h2 id="workflow-title">Del borrador al prompt terminado</h2>
+          <p>
+            Dreftinput fue creado para usuarios que escriben r&aacute;pido, mezclan instrucciones,
+            comandos o ideas, y necesitan una versi&oacute;n final m&aacute;s limpia antes de pegarla en otra app.
+          </p>
+        </div>
+        <img src="./assets/workflow-board.svg" alt="Flujo visual de Dreftinput" />
+      </section>
+
+      <section class="timeline reveal" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <p class="eyebrow">Como trabaja</p>
+          <h2 id="timeline-title">Una mejora en cuatro capas</h2>
+        </div>
+        <ol>
+          <li><strong>Detecta idioma.</strong><span>Identifica el lenguaje base sin pedir configuracion manual.</span></li>
+          <li><strong>Corrige texto.</strong><span>Arregla errores de escritura, acentos, simbolos y mayusculas.</span></li>
+          <li><strong>Reordena ideas.</strong><span>Convierte texto largo en bloques legibles cuando hay comandos o pasos.</span></li>
+          <li><strong>Entrega listo.</strong><span>Permite copiar o exportar la version final en el formato elegido.</span></li>
+        </ol>
+      </section>
+
+      <section class="download reveal" id="download" aria-labelledby="download-title">
+        <div>
+          <p class="eyebrow">Windows desktop</p>
+          <h2 id="download-title">Instalacion local para uso comercial</h2>
+          <p>
+            El launcher de Dreftinput presenta el producto antes de instalarlo, copia la app a archivos locales y crea acceso directo.
+            La web queda lista para Vercel desde la raiz del repositorio.
+          </p>
+        </div>
+        <div class="download-actions">
+          <a class="primary-action" href="https://github.com/Dreftian/Dreftinput">Ver repositorio</a>
+          <a class="secondary-action" href="https://github.com/Dreftian/Dreftinput#dreftinput">Leer README</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Dreftinput</span>
+      <span>Hecho para convertir texto rapido en inputs claros.</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
